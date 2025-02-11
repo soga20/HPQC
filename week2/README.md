@@ -7,3 +7,5 @@ From the experiment results, C seems to consistently outperform Pyhton in terms 
 •	But the C program typically takes between 0.0003 to 0.01 seconds for similar operations.
 This means that the C program is around 10 to 50 times faster than Python when reading files.
 C is a compiled language, which allows it to have direct access to the machines hardware and memory, making it much more efficient for operations like file reading. Python, on the other hand, is an interpreted language. It adds overhead due to its higher-level nature and the presence of the Python runtime environment. This overhead results in slower execution times compared to C.
+
+****The code files used for this project are, input.py, input, input.c, output.py, output, output.c. The input codes should be ran first in order to generate the data text fot the output codes. The size of the text files can be varied using the output variable in the input codes

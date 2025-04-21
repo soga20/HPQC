@@ -1,0 +1,10 @@
+agunloa2@cheetah:~/PHY1090/week4$ mpirun -np 2 ./bin/pingpong 10
+No protocol specified
+Ping-Pong completed. Total pings: 10
+Elapsed Time: 0.000092 seconds
+Average Time per Ping: 0.000009 seconds
+agunloa2@cheetah:~/PHY1090/week4$ mpirun -np 2 ./bin/pingpong 1000
+No protocol specified
+Ping-Pong completed. Total pings: 1000
+Elapsed Time: 0.000585 seconds
+Average Time per Ping: 0.000001 seconds
